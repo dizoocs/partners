@@ -1,0 +1,5 @@
+title: Partners
+modelClass: Dizoo\Partners\Models\Partners
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

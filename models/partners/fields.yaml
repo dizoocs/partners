@@ -1,0 +1,25 @@
+fields:
+    image:
+        label: 'dizoo.partners::lang.strings.partner_image'
+        mode: image
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload
+    name:
+        label: 'dizoo.partners::lang.strings.partner_name'
+        span: left
+        required: 1
+        type: text
+    url:
+        label: 'dizoo.partners::lang.strings.partner_url'
+        span: left
+        type: text
+    active:
+        label: 'dizoo.partners::lang.strings.active'
+        span: left
+        default: 1
+        type: switch

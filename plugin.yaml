@@ -1,0 +1,17 @@
+plugin:
+    name: 'dizoo.partners::lang.plugin.name'
+    description: 'Plugin to manage partners by adding names, images and a link to their website.'
+    author: Dizoo
+    icon: oc-icon-suitcase
+    homepage: ''
+permissions:
+    manage-partners:
+        tab: 'dizoo.partners::lang.strings.permission_title'
+        label: 'dizoo.partners::lang.strings.permission_label'
+navigation:
+    main-menu-item:
+        label: 'dizoo.partners::lang.plugin.name'
+        url: dizoo/partners/partners
+        icon: icon-suitcase
+        permissions:
+            - manage-partners

@@ -1,0 +1,17 @@
+name: Partners
+modelClass: Dizoo\Partners\Models\Partners
+form: $/dizoo/partners/models/partners/fields.yaml
+defaultRedirect: dizoo/partners/partners
+create:
+    title: 'dizoo.partners::lang.strings.controller_create'
+    redirect: 'dizoo/partners/partners/update/:id'
+    redirectClose: dizoo/partners/partners
+    flashSave: 'dizoo.partners::lang.strings.controller_save'
+update:
+    title: 'dizoo.partners::lang.strings.controller_edit'
+    redirect: dizoo/partners/partners
+    redirectClose: dizoo/partners/partners
+    flashSave: 'dizoo.partners::lang.strings.controller_save'
+    flashDelete: 'dizoo.partners::lang.strings.controller_delete'
+preview:
+    title: 'dizoo.partners::lang.strings.controller_show'

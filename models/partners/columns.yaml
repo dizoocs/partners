@@ -1,0 +1,26 @@
+columns:
+    imageThumb:
+        label: 'dizoo.slider::lang.strings.image'
+        sortable: false
+        searchable: false
+        type: partial
+        path: img_thumb
+        width: 107px
+    name:
+        label: 'dizoo.partners::lang.strings.partner_name'
+        type: text
+        searchable: true
+        sortable: true
+    url:
+        label: 'dizoo.partners::lang.strings.partner_url'
+        type: text
+        searchable: true
+        sortable: true
+    sort_order:
+        label: 'dizoo.partners::lang.strings.sort_order'
+        type: number
+        searchable: true
+    active:
+        label: 'dizoo.partners::lang.strings.active'
+        type: text
+        sortable: true
