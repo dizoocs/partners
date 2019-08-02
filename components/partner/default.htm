@@ -1,3 +1,4 @@
+{% if partners %}
 <div class="partner-slider slider" style="background-color: {{ __SELF__.property('backgroundColor') }};">
     {% for partner in partners %}
         {% if partner.url %}
@@ -16,3 +17,4 @@
         </div>
     {% endfor %}
 </div>
+{% endif %}
