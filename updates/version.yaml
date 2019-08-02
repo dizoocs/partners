@@ -3,3 +3,6 @@
 1.0.2:
     - 'Created table dizoo_partners_main'
     - builder_table_create_dizoo_partners_main.php
+1.0.3:
+    - 'Fix to hide the slider when no partners are present'
+
