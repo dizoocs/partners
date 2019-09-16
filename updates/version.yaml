@@ -5,4 +5,6 @@
     - builder_table_create_dizoo_partners_main.php
 1.0.3:
     - 'Fix to hide the slider when no partners are present'
+1.0.4:
+    - 'Fix for wrongly scaling images on smaller resolutions'
 

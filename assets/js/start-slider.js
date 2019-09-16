@@ -1,6 +1,6 @@
-var $ = jQuery.noConflict();
+let $ = jQuery.noConflict();
 
-$(document).ready(function($){
+$(document).ready(function ($) {
     $('.partner-slider').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
