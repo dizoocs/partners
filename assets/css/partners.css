@@ -7,7 +7,7 @@
 }
 
 .slick-slide img {
-  height: 120px;
+  max-height: 120px;
   max-width: 100%;
 }
 
