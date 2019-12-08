@@ -19,9 +19,13 @@ class Partner extends ComponentBase {
         $partners = $this->getPartners();
         if($partners->isNotEmpty()) {
             $this->page['partners'] = $partners;
-            $this->addCss('/plugins/dizoo/partners/assets/css/partners.css');
-            $this->addJs('/plugins/dizoo/partners/assets/js/slick-1.6.0.js');
-            $this->addJs('/plugins/dizoo/partners/assets/js/start-slider.js');
+            if ($this->property('includeCSS')) {
+                $this->addCss('/plugins/dizoo/partners/assets/css/partners.css');
+            }
+            if ($this->property('includeJS')) {
+                $this->addJs('/plugins/dizoo/partners/assets/js/slick-1.6.0.js');
+                $this->addJs('/plugins/dizoo/partners/assets/js/start-slider.js');
+            }
         }
     }
 
@@ -40,7 +44,19 @@ class Partner extends ComponentBase {
                  'type'              => 'string',
                  'validationPattern' => '^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$',
                  'validationMessage' => 'Please fill in a valid hex code with the #'
-            ]
+            ],
+            'includeCSS' => [
+                'title'             => 'Include CSS',
+                'description'       => 'Uncheck this if you use your own CSS',
+                'default'           => true,
+                'type'              => 'checkbox'
+            ],
+            'includeJS' => [
+                'title'             => 'Include JS',
+                'description'       => 'Uncheck this if you use your own Javascript',
+                'default'           => true,
+                'type'              => 'checkbox'
+            ],
         ];
     }
 }
