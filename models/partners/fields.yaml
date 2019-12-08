@@ -1,6 +1,6 @@
 fields:
     image:
-        label: 'dizoo.partners::lang.strings.partner_image'
+        label: Logo
         mode: image
         useCaption: 0
         thumbOptions:
