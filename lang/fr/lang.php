@@ -2,13 +2,13 @@
 <?php return [
     'plugin' => [
         'name' => 'Partenaires',
-        'description' => 'Permet de gérer et d'afficher logo et liens de partenaires.',
+        'description' => "Permet de gérer et d'afficher logo et liens de partenaires.",
     ],
     'strings' => [
         'partner_name' => 'Nom du partenaire',
         'partner_url' => 'Adresse URL',
         'partner_image' => 'Logo',
-        'sort_order' => 'Ordre d'apparition',
+        'sort_order' => "Ordre d'apparition",
         'active' => 'Actif',
         'permission_title' => 'Partenaires',
         'permission_label' => 'Gérer les partenaires',
