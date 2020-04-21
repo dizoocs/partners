@@ -1,6 +1,6 @@
 columns:
     imageThumb:
-        label: 'dizoo.slider::lang.strings.image'
+        label: 'dizoo.slider::lang.strings.partner_image'
         sortable: false
         searchable: false
         type: partial
