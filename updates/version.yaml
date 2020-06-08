@@ -9,3 +9,5 @@
     - 'Fix for wrongly scaling images on smaller resolutions'
 1.1.0:
     - 'Add option to disable scripts and CSS'
+1.2.0:
+    - 'Add FR translation and minor bug fixes (Thanks to https://github.com/RomainMazB)'
